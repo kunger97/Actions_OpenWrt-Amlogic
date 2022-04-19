@@ -1556,7 +1556,7 @@ CONFIG_PACKAGE_procd=y
 # CONFIG_PACKAGE_procd-selinux is not set
 # CONFIG_PACKAGE_procd-ujail is not set
 # CONFIG_PACKAGE_procd-ujail-console is not set
-CONFIG_PACKAGE_qos-scripts=y
+# CONFIG_PACKAGE_qos-scripts is not set
 # CONFIG_PACKAGE_refpolicy is not set
 CONFIG_PACKAGE_resolveip=y
 CONFIG_PACKAGE_rpcd=y
@@ -1656,7 +1656,7 @@ CONFIG_PACKAGE_netdata=y
 #
 # Derry Apps
 #
-# CONFIG_PACKAGE_appfilteris not set
+# CONFIG_PACKAGE_appfilter is not set
 # CONFIG_PACKAGE_kmod-oaf is not set
 # end of Derry Apps
 
@@ -4721,7 +4721,7 @@ CONFIG_PACKAGE_libxslt=y
 # CONFIG_PACKAGE_libyubikey is not set
 # CONFIG_PACKAGE_libzmq-curve is not set
 CONFIG_PACKAGE_libzmq-nc=y
-# CONFIG_LIBZMQ_NC_WITH_OPENPGM is not set
+CONFIG_LIBZMQ_NC_WITH_OPENPGM=y
 # CONFIG_PACKAGE_linux-atm is not set
 # CONFIG_PACKAGE_lmdb is not set
 # CONFIG_PACKAGE_log4cplus is not set
@@ -4845,7 +4845,7 @@ CONFIG_PACKAGE_luci-app-adguardhome=y
 CONFIG_PACKAGE_luci-app-aliyundrive-fuse=y
 CONFIG_PACKAGE_luci-app-aliyundrive-webdav=y
 CONFIG_PACKAGE_luci-app-amlogic=y
-# CONFIG_PACKAGE_luci-app-amule is not set
+CONFIG_PACKAGE_luci-app-amule=y
 CONFIG_PACKAGE_luci-app-argon-config=y
 CONFIG_PACKAGE_luci-app-aria2=y
 CONFIG_PACKAGE_luci-app-arpbind=y
@@ -5799,7 +5799,7 @@ CONFIG_PACKAGE_wget-ssl=y
 #
 # Filesystem
 #
-# CONFIG_PACKAGE_davfs2 is not set
+CONFIG_PACKAGE_davfs2=y
 # CONFIG_PACKAGE_ksmbd-avahi-service is not set
 # CONFIG_PACKAGE_ksmbd-server is not set
 # CONFIG_PACKAGE_ksmbd-utils is not set
@@ -6752,7 +6752,7 @@ CONFIG_PACKAGE_libipset=y
 # CONFIG_PACKAGE_mosquitto-nossl is not set
 # CONFIG_PACKAGE_mosquitto-ssl is not set
 # CONFIG_PACKAGE_mstpd is not set
-# CONFIG_PACKAGE_mtr-json is not set
+CONFIG_PACKAGE_mtr-json=y
 # CONFIG_PACKAGE_mtr-nojson is not set
 # CONFIG_PACKAGE_nbd is not set
 # CONFIG_PACKAGE_nbd-server is not set
